@@ -1,2 +1,59 @@
 .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-block {
+    margin: 11px 0;
+  }
+  &-menu {
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        a {
+          font-weight: var(--font-r);
+          font-size: 15px;
+          line-height: 20px;
+          @extend %dtrans;
+          &:hover {
+            color: $c200;
+            @extend %htrans;
+          }
+        }
+      }
+      li + li {
+        margin-left: 39px;
+      }
+    }
+  }
+  &-social {
+    a + a {
+      margin-left: 16px;
+    }
+    a {
+      @extend %dtrans;
+      &:hover {
+        opacity: 0.8;
+        @extend %htrans;
+      }
+    }
+  }
+  &-btn {
+    @extend %global-btn;
+
+    background: $default;
+    @extend %dtrans;
+    a {
+      color: $c100;
+    }
+    &:hover {
+      background: $c200;
+
+      @extend %htrans;
+      a {
+        color: $default;
+      }
+    }
+  }
 }

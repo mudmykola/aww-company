@@ -1,44 +1,47 @@
 .header {
-  position: relative;
-  background-image: url("/img/header-bg.png");
-  background-repeat: no-repeat;
-  width: 100%;
   height: 100vh;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url("/img/header-el.avif");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    bottom: 0%;
+  }
+  &-el {
+    &__top {
+      position: absolute;
+      top: -20%;
+      bottom: 0;
+      left: -16%;
+      z-index: -1;
+      content: "";
+      display: inline-block;
+      width: 350px;
+      height: 350px;
+      background: $c200;
+      filter: blur(155px);
+    }
+  }
 }
 
 // 768
 @media (max-width: 768px) {
-  .header {
-    height: 65vh;
-    background-size: cover;
-  }
 }
 
 // 600
 @media (max-width: 600px) {
-  .header {
-    height: 68vh;
-    background-size: cover;
-  }
 }
 
 // 480
 @media (max-width: 480px) {
-  .header {
-    height: 20vh;
-    background-size: cover;
-  }
-
 }
 
 // 320
 @media (max-width: 320px) {
-  .header {
-    height: 20vh;
-    background-size: cover;
-  }
-
 }
