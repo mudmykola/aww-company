@@ -1,6 +1,7 @@
 .header {
   position: relative;
-  height: 100vh;
+  min-height: 768px;
+  height: 100%;
   &::after {
     position: absolute;
     content: "";
@@ -30,7 +31,7 @@
     &__bottom {
       position: absolute;
       bottom: 0;
-      right: 25%;
+      right: 20%;
       content: "";
 
       width: 350px;
