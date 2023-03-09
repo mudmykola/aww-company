@@ -163,6 +163,7 @@ a {
 
 .header {
   position: relative;
+  height: 100vh;
 }
 .header::after {
   position: absolute;
@@ -189,6 +190,18 @@ a {
   background: #599d2e;
   -webkit-filter: blur(155px);
   filter: blur(155px);
+}
+.header-el__bottom {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  content: "";
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background: #599d2e;
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
 }
 
 .navigation {
