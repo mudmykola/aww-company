@@ -11,6 +11,9 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_ex_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/ex.js */ "./src/js/components/ex.js");
 /* harmony import */ var _components_ex_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_ex_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/slider */ "./src/js/components/slider.js");
+/* harmony import */ var _components_slider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_slider__WEBPACK_IMPORTED_MODULE_1__);
+
 
 
 /***/ }),
@@ -160,6 +163,34 @@ const link = document.createElement("a");
 link.href = "google.com";
 link.appendChild(logo.children[0]);
 logo.appendChild(link);
+
+/***/ }),
+
+/***/ "./src/js/components/slider.js":
+/*!*************************************!*\
+  !*** ./src/js/components/slider.js ***!
+  \*************************************/
+/***/ (() => {
+
+let swiper = new Swiper(".headercont-slider__cards", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 5000
+  },
+  pagination: {
+    el: ".headercont-pagination",
+    clickable: true
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1
+    },
+    480: {
+      slidesPerView: 1
+    }
+  }
+});
 
 /***/ }),
 

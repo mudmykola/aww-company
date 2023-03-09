@@ -5,34 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/android-chrome-192x192.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/android-chrome-192x192.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/android-chrome-512x512.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/android-chrome-512x512.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/apple-touch-icon.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/apple-touch-icon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/favicon-16x16.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/favicon-16x16.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/favicon-32x32.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon_io/favicon-32x32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/fb-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/arrow-down.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/img/linkedin-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/youtube-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/star-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/_components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,21 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;/media/mykola/Date/html+css+js/aww-company/node_modules/stylelint&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "/media/mykola/Date/html+css+js/aww-company/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +72,7 @@
       <updated>1678249481575</updated>
       <workItem from="1678249485260" duration="464000" />
       <workItem from="1678250318394" duration="396000" />
+      <workItem from="1678335767828" duration="9948000" />
     </task>
     <servers />
   </component>
