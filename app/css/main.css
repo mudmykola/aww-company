@@ -15,18 +15,18 @@
   --d-tr: all 0.3s ease;
 }
 
-.headercont-slider--commit ul:after, .headercont-slider--commit {
+.delivering-cont__item:hover, .headercont-slider--commit ul:after, .headercont-slider--commit {
   -webkit-box-shadow: 0px 5px 35px rgba(225, 242, 255, 0.9);
   box-shadow: 0px 5px 35px rgba(225, 242, 255, 0.9);
 }
 
-.swiper-pagination-bullet, .headercont-info__link button, .headercont-info__link a, .navigation-btn, .navigation-social a, .navigation-menu ul li a {
+.delivering-tech__design ul li p, .delivering-tech__front ul li p, .delivering-tech__back ul li p, .delivering-tech__design ul li, .delivering-tech__front ul li, .delivering-tech__back ul li, .delivering-cont__item, .swiper-pagination-bullet, .headercont-info__link button, .headercont-info__link a, .navigation-btn, .navigation-social a, .navigation-menu ul li a {
   -webkit-transition: var(--d-tr);
   -o-transition: var(--d-tr);
   transition: var(--d-tr);
 }
 
-.swiper-pagination-bullet-active, .headercont-info__link button:hover, .headercont-info__link a:hover, .navigation-btn:hover, .navigation-social a:hover, .navigation-menu ul li a:hover {
+.delivering-tech__design ul li:hover p, .delivering-tech__front ul li:hover p, .delivering-tech__back ul li:hover p, .delivering-tech__design ul li:hover, .delivering-tech__front ul li:hover, .delivering-tech__back ul li:hover, .delivering-cont__item:hover, .swiper-pagination-bullet-active, .headercont-info__link button:hover, .headercont-info__link a:hover, .navigation-btn:hover, .navigation-social a:hover, .navigation-menu ul li a:hover {
   -webkit-transition: var(--h-tr);
   -o-transition: var(--h-tr);
   transition: var(--h-tr);
@@ -428,7 +428,7 @@ a {
   position: relative;
   background: #fff;
   border-radius: 66px;
-  height: 990px;
+  height: 850px;
   z-index: 9999;
   color: #222939;
 }
@@ -464,6 +464,11 @@ a {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
+  border-radius: 0%;
+  cursor: pointer;
+}
+.delivering-cont__item:hover {
+  border-radius: 8%;
 }
 .delivering-cont__item--text {
   margin-left: 29px;
@@ -477,5 +482,78 @@ a {
 }
 .delivering-cont__item--text p {
   font-weight: var(--font-l);
+}
+.delivering-tech {
+  margin-top: 84px;
+}
+.delivering-tech h2 {
+  text-align: left;
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: var(--font-l);
+}
+.delivering-tech h2 span {
+  font-weight: var(--font-b);
+}
+.delivering-tech__design, .delivering-tech__front, .delivering-tech__back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 37px;
+}
+.delivering-tech__design h3, .delivering-tech__front h3, .delivering-tech__back h3 {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: var(--font-sb);
+  color: #599d2e;
+  margin-right: 102px;
+}
+.delivering-tech__design ul, .delivering-tech__front ul, .delivering-tech__back ul {
+  display: -ms-grid;
+  display: grid;
+  gap: 40px;
+  -ms-grid-columns: (1fr)[5];
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+}
+.delivering-tech__design ul li, .delivering-tech__front ul li, .delivering-tech__back ul li {
+  cursor: pointer;
+  text-align: center;
+  font-weight: var(--font-r);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.delivering-tech__design ul li p, .delivering-tech__front ul li p, .delivering-tech__back ul li p {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: var(--font-r);
+  margin-top: 9px;
+  opacity: 0.8;
+}
+.delivering-tech__design ul li:hover, .delivering-tech__front ul li:hover, .delivering-tech__back ul li:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.delivering-tech__design ul li:hover p, .delivering-tech__front ul li:hover p, .delivering-tech__back ul li:hover p {
+  opacity: 1;
+}
+.delivering-tech__front {
+  margin: 40px 0;
+}
+.delivering-tech__front h3, .delivering-tech__back h3 {
+  margin-right: 77px;
+}
+.delivering-tech__front ul li p, .delivering-tech__back ul li p {
+  text-transform: uppercase;
+}
+.delivering-tech__back {
+  margin-top: 0;
+}
+.delivering-tech__back h3 {
+  margin-right: 85px;
 }
 /*# sourceMappingURL=main.css.map */
