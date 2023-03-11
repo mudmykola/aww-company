@@ -76,3 +76,10 @@ $default: #fff;
   float: right;
   padding: 0 15px;
 }
+
+//hover
+
+%color-eff{
+  background: #64B531;
+  transition: var(--h-tr);
+}

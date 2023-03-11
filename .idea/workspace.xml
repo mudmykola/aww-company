@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="feat: Added styles for the &quot;delivering&quot; block, also added :hover effect." />
+    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="feat: Added markup to the service section.">
+      <change afterPath="$PROJECT_DIR$/src/js/components/services-tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/_components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_services.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -71,6 +86,8 @@
       <workItem from="1678388239650" duration="2918000" />
       <workItem from="1678422190181" duration="6711000" />
       <workItem from="1678543533908" duration="2735000" />
+      <workItem from="1678548069041" duration="107000" />
+      <workItem from="1678569342031" duration="6597000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add markup + style delivering section.">
       <created>1678390668120</created>
@@ -93,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678429576525</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Added markup to the service section.">
+      <created>1678548151560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678548151560</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Add markup + style delivering section." />
     <MESSAGE value="feat: Added styles for the &quot;delivering&quot; block, also added :hover effect." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Added styles for the &quot;delivering&quot; block, also added :hover effect." />
+    <MESSAGE value="feat: Added markup to the service section." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Added markup to the service section." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
