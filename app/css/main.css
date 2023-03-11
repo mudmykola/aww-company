@@ -20,19 +20,19 @@
   box-shadow: 0px 5px 35px rgba(225, 242, 255, 0.9);
 }
 
-.delivering-tech__design ul li p, .delivering-tech__front ul li p, .delivering-tech__back ul li p, .delivering-tech__design ul li, .delivering-tech__front ul li, .delivering-tech__back ul li, .delivering-cont__item, .swiper-pagination-bullet, .headercont-info__link button, .headercont-info__link a, .navigation-btn, .navigation-social a, .navigation-menu ul li a {
+.services-tabs__btn, .delivering-tech__design ul li p, .delivering-tech__front ul li p, .delivering-tech__back ul li p, .delivering-tech__design ul li, .delivering-tech__front ul li, .delivering-tech__back ul li, .delivering-cont__item, .swiper-pagination-bullet, .headercont-info__link button, .headercont-info__link a, .navigation-btn, .navigation-social a, .navigation-menu ul li a {
   -webkit-transition: var(--d-tr);
   -o-transition: var(--d-tr);
   transition: var(--d-tr);
 }
 
-.delivering-tech__design ul li:hover p, .delivering-tech__front ul li:hover p, .delivering-tech__back ul li:hover p, .delivering-tech__design ul li:hover, .delivering-tech__front ul li:hover, .delivering-tech__back ul li:hover, .delivering-cont__item:hover, .swiper-pagination-bullet-active, .headercont-info__link button:hover, .headercont-info__link a:hover, .navigation-btn:hover, .navigation-social a:hover, .navigation-menu ul li a:hover {
+.services-tabs__btn.active, .delivering-tech__design ul li:hover p, .delivering-tech__front ul li:hover p, .delivering-tech__back ul li:hover p, .delivering-tech__design ul li:hover, .delivering-tech__front ul li:hover, .delivering-tech__back ul li:hover, .delivering-cont__item:hover, .swiper-pagination-bullet-active, .headercont-info__link button:hover, .headercont-info__link a:hover, .navigation-btn:hover, .navigation-social a:hover, .navigation-menu ul li a:hover {
   -webkit-transition: var(--h-tr);
   -o-transition: var(--h-tr);
   transition: var(--h-tr);
 }
 
-.headercont-info__link button, .navigation-btn {
+.services-tabs__btn, .headercont-info__link button, .navigation-btn {
   background: #599d2e;
   font-size: 14px;
   line-height: 18px;
@@ -555,5 +555,42 @@ a {
 }
 .delivering-tech__back h3 {
   margin-right: 85px;
+}
+
+.services-tab {
+  padding-top: 76px;
+}
+.services-tab h2 {
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: var(--font-r);
+  padding-bottom: 55px;
+}
+.services-tab h2 span {
+  font-weight: var(--font-bk);
+}
+.services-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.services-cont__text {
+  width: 568px;
+}
+.services-tabs button + button {
+  margin-left: 23px;
+}
+.services-tabs__btn {
+  font-weight: var(--font-sb);
+  border: none;
+  border-radius: 8px;
+  padding: 18px 44px;
+  background: #fff;
+  color: #222939;
+  cursor: pointer;
+}
+.services-tabs__btn.active {
+  background: #599d2e;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

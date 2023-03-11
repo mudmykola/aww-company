@@ -1,0 +1,59 @@
+.services{
+  &-tab{
+    padding-top: 76px;
+    h2{
+      font-size: 44px;
+      line-height: 50px;
+      font-weight: var(--font-r);
+      padding-bottom: 55px;
+      span{
+        font-weight: var(--font-bk);
+      }
+    }
+
+  }
+  &-cont{
+    display: flex;
+    &__text{
+      width: 568px;
+    }
+
+  }
+  &-tabs{
+button+button{
+  margin-left: 23px;
+}
+    &__btn{
+      @extend %global-btn;
+      font-weight: var(--font-sb);
+      border: none;
+      border-radius: 8px;
+      padding: 18px 44px;
+      background: $default;
+      color: $c100;
+      cursor: pointer;
+      @extend %dtrans;
+      &.active{
+        background: $c200;
+        color: $default;
+        @extend  %htrans;
+      }
+    }
+  }
+}
+
+// 768
+@media (max-width: 768px) {
+}
+
+// 600
+@media (max-width: 600px) {
+}
+
+// 480
+@media (max-width: 480px) {
+}
+
+// 320
+@media (max-width: 320px) {
+}
