@@ -1,5 +1,6 @@
 .services{
   position: relative;
+
   &-tab{
     padding-top: 76px;
     &:after{
@@ -137,6 +138,16 @@ button+button{
     padding: 61px 0 99px;
     background: linear-gradient(180deg, #222939 0%, #222939 100%);
     border-radius: 66px;
+span{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: $default;
+    height: 15%;
+    z-index: -1;
+
+}
     &:after{
       content: '';
       position: absolute;
@@ -148,7 +159,7 @@ button+button{
       width: 100%;
       height: 500px;
       z-index: -1;
-      overflow: hidden;
+      //overflow: hidden;
       opacity: 0.3;
     }
     &:before{
@@ -173,8 +184,10 @@ button+button{
         font-size: 44px;
         line-height: 50px;
         font-weight: var(--font-l);
-        span{
+        color: $default;
+        strong{
           font-weight: var(--font-b);
+
         }
       }
       p{
