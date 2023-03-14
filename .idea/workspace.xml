@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="feat: Added markup to the service section.">
-      <change afterPath="$PROJECT_DIR$/src/js/components/services-tab.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/services-img-1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/_components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_components.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_services.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +47,7 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/mykola/Date/html+css+js/aww-company&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/mykola/Data/Dev/aww-company&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -88,6 +82,8 @@
       <workItem from="1678543533908" duration="2735000" />
       <workItem from="1678548069041" duration="107000" />
       <workItem from="1678569342031" duration="6597000" />
+      <workItem from="1678726359390" duration="1292000" />
+      <workItem from="1678767757485" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add markup + style delivering section.">
       <created>1678390668120</created>

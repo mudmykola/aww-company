@@ -132,6 +132,76 @@ button+button{
 
     }
   }
+  &-expertise{
+    position: relative;
+    padding: 61px 0 99px;
+    background: linear-gradient(180deg, #222939 0%, #222939 100%);
+    border-radius: 66px;
+    &:after{
+      content: '';
+      position: absolute;
+      background-image: url('/img/services-el-2.png');
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      top: -38% ;
+      width: 100%;
+      height: 500px;
+      z-index: -1;
+      overflow: hidden;
+      opacity: 0.3;
+    }
+    &:before{
+      position: absolute;
+      top: -10%;
+      bottom: 0;
+      right: 5%;
+      z-index: -1;
+      content: "";
+      display: inline-block;
+      width: 350px;
+      height: 350px;
+      background: $c200;
+      filter: blur(155px);
+
+    }
+    &__title{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      h2{
+        font-size: 44px;
+        line-height: 50px;
+        font-weight: var(--font-l);
+        span{
+          font-weight: var(--font-b);
+        }
+      }
+      p{
+        width: 585px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: var(--font-r);
+      }
+    }
+    &__inner{
+      margin-top: 91px;
+      ul{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+  gap: 157px;
+        li{
+          text-align: center;
+          p{
+            font-size: 20px;
+            line-height: 25px;
+            font-weight: var(--font-sb);
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
 }
 
 .show {
