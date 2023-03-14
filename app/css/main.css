@@ -796,6 +796,7 @@ a {
   font-weight: var(--font-b);
 }
 .works-content {
+  overflow: hidden;
   margin: 57px 0 25px;
 }
 .works-content__wrapper {
@@ -888,5 +889,10 @@ a {
 .works-pagination button.active {
   width: 47px;
   background: #599d2e;
+}
+
+.swiper-pagination-horizontal {
+  max-width: 169px;
+  height: 28px;
 }
 /*# sourceMappingURL=main.css.map */

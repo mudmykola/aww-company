@@ -14,6 +14,7 @@
     }
   }
   &-content{
+    overflow: hidden;
     margin: 57px 0 25px;
     &__wrapper{
       width: 100%;
@@ -89,7 +90,6 @@ cursor: pointer;
   }
   &-pagination{
     width: 169px;
-
     border-radius: 70px;
     margin: 0 auto;
     &__box{
@@ -108,7 +108,10 @@ cursor: pointer;
   background: $c200;
 }
 
-
     }
   }
+}
+.swiper-pagination-horizontal{
+  max-width: 169px;
+  height: 28px;
 }

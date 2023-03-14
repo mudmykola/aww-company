@@ -15,6 +15,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_slider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_slider__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_services_tab__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/services-tab */ "./src/js/components/services-tab.js");
 /* harmony import */ var _components_services_tab__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_services_tab__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_works_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/works.js */ "./src/js/components/works.js");
+/* harmony import */ var _components_works_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_works_js__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -209,6 +212,34 @@ let swiper = new Swiper(".headercont-slider__cards", {
   },
   pagination: {
     el: ".headercont-pagination",
+    clickable: true
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1
+    },
+    480: {
+      slidesPerView: 1
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./src/js/components/works.js":
+/*!************************************!*\
+  !*** ./src/js/components/works.js ***!
+  \************************************/
+/***/ (() => {
+
+let swiper = new Swiper(".works-content", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 5000
+  },
+  pagination: {
+    el: ".works-pagination",
     clickable: true
   },
   breakpoints: {
