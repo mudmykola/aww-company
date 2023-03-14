@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="feat: Added markup to the service section.">
-      <change afterPath="$PROJECT_DIR$/src/js/components/services-tab.js" afterDir="false" />
+    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="feat: Added markup and styling to the work slider.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/_components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/works.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_works.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,7 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/mykola/Date/html+css+js/aww-company&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/mykola/Data/JS/test-js&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -88,6 +83,10 @@
       <workItem from="1678543533908" duration="2735000" />
       <workItem from="1678548069041" duration="107000" />
       <workItem from="1678569342031" duration="6597000" />
+      <workItem from="1678726359390" duration="1292000" />
+      <workItem from="1678767757485" duration="5122000" />
+      <workItem from="1678794303429" duration="6395000" />
+      <workItem from="1678823904987" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add markup + style delivering section.">
       <created>1678390668120</created>
@@ -117,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678548151560</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="style: Finished styling the service section.">
+      <created>1678769888480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678769888481</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Added markup and styling to the work slider.">
+      <created>1678802379462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678802379462</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +151,9 @@
     <MESSAGE value="feat: Add markup + style delivering section." />
     <MESSAGE value="feat: Added styles for the &quot;delivering&quot; block, also added :hover effect." />
     <MESSAGE value="feat: Added markup to the service section." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Added markup to the service section." />
+    <MESSAGE value="style: Finished styling the service section." />
+    <MESSAGE value="feat: Added markup and styling to the work slider." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Added markup and styling to the work slider." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
