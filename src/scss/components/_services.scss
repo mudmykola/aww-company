@@ -1,9 +1,9 @@
-.services{
+.services {
   position: relative;
 
-  &-tab{
+  &-tab {
     padding-top: 76px;
-    &:after{
+    &:after {
       position: absolute;
       top: -25%;
       bottom: 0;
@@ -15,46 +15,44 @@
       height: 350px;
       background: $c200;
       filter: blur(155px);
-
-
     }
-    h2{
+    h2 {
       font-size: 44px;
       line-height: 50px;
       font-weight: var(--font-r);
       padding-bottom: 55px;
-      span{
+      span {
         font-weight: var(--font-bk);
       }
     }
   }
-  &-cont{
+  &-cont {
     display: none;
     height: 434px;
     margin: 68px 0 145px;
     transition: opacity 0.5s ease-in-out;
     opacity: 0;
     @extend %dtrans;
-    &__text{
+    &__text {
       width: 568px;
       margin-left: 53px;
-      h2{
+      h2 {
         font-size: 30px;
         line-height: 35px;
         font-weight: var(--font-sb);
         margin-bottom: 21px;
       }
-      p{
+      p {
         font-weight: var(--font-r);
       }
-      p+p{
+      p + p {
         margin-top: 20px;
       }
     }
-    &__link{
+    &__link {
       margin-top: 43px;
-      button{
-        @extend  %global-btn;
+      button {
+        @extend %global-btn;
         border: none;
         //padding: 16px 63px;
         font-size: 14px;
@@ -62,21 +60,20 @@
         font-weight: var(--font-m);
         @extend %dtrans;
 
-        &:hover{
+        &:hover {
           @extend %color-eff;
-
         }
       }
-      a{
+      a {
         position: relative;
         font-weight: var(--font-m);
         color: $c200;
         padding-left: 52px;
-        
-        &:after{
+
+        &:after {
           position: absolute;
-          content: '';
-          background-image: url('/img/svg/services-icon-link.svg');
+          content: "";
+          background-image: url("/img/svg/services-icon-link.svg");
           background-repeat: no-repeat;
           -webkit-background-size: cover;
           background-size: cover;
@@ -85,20 +82,19 @@
           height: 24px;
           top: 5%;
         }
-        @extend  %dtrans;
-        &:hover{
-opacity: 0.8;
-          @extend  %htrans;
+        @extend %dtrans;
+        &:hover {
+          opacity: 0.8;
+          @extend %htrans;
         }
       }
     }
-
   }
-  &-tabs{
-button+button{
-  margin-left: 23px;
-}
-    &__btn{
+  &-tabs {
+    button + button {
+      margin-left: 23px;
+    }
+    &__btn {
       @extend %global-btn;
       font-weight: var(--font-sb);
       border: none;
@@ -108,18 +104,17 @@ button+button{
       color: $c100;
       cursor: pointer;
       @extend %dtrans;
-      &.active{
+      &.active {
         background: $c200;
         color: $default;
-        @extend  %htrans;
+        @extend %htrans;
       }
     }
   }
-  &-el{
-
-    &__top{
+  &-el {
+    &__top {
       position: absolute;
-      background-image: url('/img/services-el-1.webp');
+      background-image: url("/img/services-el-1.webp");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
@@ -128,41 +123,39 @@ button+button{
       height: 500px;
       overflow: hidden;
       z-index: -1;
- transform: rotate(2deg);
+      transform: rotate(2deg);
       opacity: 0.2;
-
     }
   }
-  &-expertise{
+  &-expertise {
     position: relative;
     padding: 61px 0 99px;
     background: linear-gradient(180deg, #222939 0%, #222939 100%);
     border-radius: 66px;
-span{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: $default;
-    height: 15%;
-    z-index: -1;
-
-}
-    &:after{
-      content: '';
+    span {
+      content: "";
       position: absolute;
-      background-image: url('/img/services-el-2.png');
+      bottom: 0;
+      width: 100%;
+      background: $default;
+      height: 15%;
+      z-index: -1;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      background-image: url("/img/services-el-2.png");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
-      top: -38% ;
+      top: -38%;
       width: 100%;
       height: 500px;
       z-index: -1;
       //overflow: hidden;
       opacity: 0.3;
     }
-    &:before{
+    &:before {
       position: absolute;
       top: -10%;
       bottom: 0;
@@ -174,38 +167,36 @@ span{
       height: 350px;
       background: $c200;
       filter: blur(155px);
-
     }
-    &__title{
+    &__title {
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
-      h2{
+      h2 {
         font-size: 44px;
         line-height: 50px;
         font-weight: var(--font-l);
         color: $default;
-        strong{
+        strong {
           font-weight: var(--font-b);
-
         }
       }
-      p{
+      p {
         width: 585px;
         font-size: 16px;
         line-height: 20px;
         font-weight: var(--font-r);
       }
     }
-    &__inner{
+    &__inner {
       margin-top: 91px;
-      ul{
+      ul {
         display: grid;
-        grid-template-columns: repeat(5,1fr);
-  gap: 157px;
-        li{
+        grid-template-columns: repeat(5, 1fr);
+        gap: 157px;
+        li {
           text-align: center;
-          p{
+          p {
             font-size: 20px;
             line-height: 25px;
             font-weight: var(--font-sb);
@@ -220,11 +211,10 @@ span{
 .show {
   display: flex;
   @extend %htrans;
-opacity: 1;
-
+  opacity: 1;
 }
 
-  // 768
+// 768
 @media (max-width: 768px) {
 }
 

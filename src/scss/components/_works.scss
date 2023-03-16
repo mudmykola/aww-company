@@ -1,31 +1,32 @@
-.works{
+.works {
   background: $default;
   padding-bottom: 60px;
-  &-inner{
+  border-radius: 0 0 60px 60px;
+  &-inner {
     color: $c100;
     padding-top: 97px;
-    h2{
+    h2 {
       font-size: 44px;
       line-height: 50px;
       font-weight: var(--font-l);
-      span{
+      span {
         font-weight: var(--font-b);
       }
     }
   }
-  &-content{
+  &-content {
     overflow: hidden;
     margin: 57px 0 25px;
-    &__wrapper{
+    &__wrapper {
       width: 100%;
     }
   }
-  &-slide{
+  &-slide {
     display: flex;
     justify-content: center;
-    &__img{
+    &__img {
       position: relative;
-      span{
+      span {
         position: absolute;
         bottom: 3%;
         left: 3%;
@@ -38,10 +39,10 @@
         border-radius: 10px;
       }
     }
-    &__info{
+    &__info {
       width: 55%;
       margin-left: 48px;
-      button{
+      button {
         font-weight: var(--font-l);
         border: 1px solid $c100;
         background: rgba(89, 157, 46, 0.21);
@@ -50,68 +51,66 @@
         margin-bottom: 25px;
         border-radius: 2px;
       }
-      h2{
+      h2 {
         font-size: 30px;
         line-height: 35px;
         font-weight: var(--font-sb);
       }
-      p{
+      p {
         margin-top: 25px;
         font-size: 17px;
         line-height: 23px;
       }
-      p+p{
+      p + p {
         margin-bottom: 25px;
       }
-      a{
-
+      a {
         color: $c200;
         margin-top: 25px;
         font-weight: var(--font-m);
-cursor: pointer;
-        @extend  %dtrans;
-        &:hover{
+        cursor: pointer;
+        @extend %dtrans;
+        &:hover {
           opacity: 0.8;
-          @extend  %htrans;
+          @extend %htrans;
         }
-      &:after{
-        position: absolute;
-        content: '';
-        background-image: url('/img/svg/services-icon-link.svg');
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
-        width: 24px;
-        height: 24px;
-        margin-left: 15px;
-      }
+        &:after {
+          position: absolute;
+          content: "";
+          background-image: url("/img/svg/services-icon-link.svg");
+          background-repeat: no-repeat;
+          -webkit-background-size: cover;
+          background-size: cover;
+          width: 24px;
+          height: 24px;
+          margin-left: 15px;
+        }
       }
     }
   }
-  &-pagination{
+  &-pagination {
     width: 169px;
     border-radius: 70px;
     margin: 0 auto;
-    &__box{
+    &__box {
       padding: 5px 26px;
     }
 
     background: $c100;
-    button{
+    button {
       width: 17px;
       height: 2px;
       background: $c300;
       border-radius: 12px;
       vertical-align: middle;
-&.active{
-  width: 47px;
-  background: $c200;
-}
-
+      &.active {
+        width: 47px;
+        background: $c200;
+      }
     }
   }
 }
-.swiper-pagination-horizontal{
+.swiper-pagination-horizontal {
   max-width: 169px;
   height: 28px;
 }

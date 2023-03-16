@@ -57,10 +57,10 @@ console.log(mobileCheck());
 // });
 
 // Подключение анимаций по скроллу
-//import AOS from "aos";
-//AOS.init({
-//  duration: 1000,
-//});
+import AOS from "aos";
+AOS.init({
+  duration: 1000,
+});
 
 // Подключение параллакса блоков при скролле
 // import Rellax from 'rellax';
