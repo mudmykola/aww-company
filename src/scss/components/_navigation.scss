@@ -47,13 +47,14 @@
     @extend %dtrans;
     a {
       color: $c100;
+      @extend %dtrans;
     }
     &:hover {
-      background: $c200;
+      @extend %color-eff;
 
-      @extend %htrans;
       a {
         color: $default;
+        @extend %htrans;
       }
     }
   }
