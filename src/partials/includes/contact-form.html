@@ -1,0 +1,26 @@
+<div class="contact-form">
+  <h2 class="contact-form__title">
+    Send us a message and we’ll get back to you shortly
+  </h2>
+  <form action="/submit" id="form" method="post" enctype="multipart/form-data">
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Your name*"
+      required
+    />
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Your E-mail*"
+      required
+    />
+    <textarea name="message" id="message" placeholder="Massage*"></textarea>
+    <div class="contact-form__btn">
+      <p id="confirmation"></p>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>

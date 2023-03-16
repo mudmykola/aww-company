@@ -16,6 +16,7 @@
     bottom: 0;
     right: -23%;
     overflow: hidden;
+    z-index: -1;
   }
   &-inner {
     &__marg {
