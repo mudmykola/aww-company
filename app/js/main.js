@@ -27,6 +27,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_services_tab__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_services_tab__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_works_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/works.js */ "./src/js/components/works.js");
 /* harmony import */ var _components_works_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_works_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_form_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/form.js */ "./src/js/components/form.js");
+/* harmony import */ var _components_form_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_form_js__WEBPACK_IMPORTED_MODULE_4__);
+
 
 
 
@@ -181,6 +184,40 @@ const link = document.createElement("a");
 link.href = "google.com";
 link.appendChild(logo.children[0]);
 logo.appendChild(link);
+
+/***/ }),
+
+/***/ "./src/js/components/form.js":
+/*!***********************************!*\
+  !*** ./src/js/components/form.js ***!
+  \***********************************/
+/***/ (() => {
+
+///
+const botToken = "6236854920:AAHPFN0EYzq9KHmCzC_FOhvs7WZEboaFv6E";
+const chatId = "392431624";
+const form = document.querySelector("#form");
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  const name = document.querySelector("#name").value;
+  const email = document.querySelector("#email").value;
+  const message = document.querySelector("#message").value;
+  const formData = new FormData();
+  formData.append("name", name);
+  formData.append("email", email);
+  formData.append("message", message);
+  let messageText = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+  fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(messageText)}`).then(response => {
+    if (response.ok) {
+      form.reset();
+      const successMessage = document.querySelector("#confirmation");
+      successMessage.innerHTML = "Form submitted successfully!";
+      console.log("Message sent successfully!");
+    } else {
+      console.error("Failed to send message!");
+    }
+  }).catch(error => console.error(error));
+});
 
 /***/ }),
 
