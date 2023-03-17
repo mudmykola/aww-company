@@ -1,9 +1,19 @@
 .modal {
+  //   display: none;
   position: absolute;
-  top: 30%;
-  right: 35%;
-  width: 421px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 6000px;
   z-index: 9999;
+  top: -2%;
+
+  &-box {
+    position: fixed;
+    top: 30%;
+    right: 35%;
+    z-index: 9999;
+    width: 421px;
+  }
   &-inner {
     background: #e9eaeb;
     border-radius: 21px;
@@ -39,6 +49,7 @@
         outline: none;
       }
       button {
+        margin-top: 8px;
         background: $c200;
         border-radius: 39px;
         padding: 14px 0;
@@ -67,6 +78,11 @@
     background: transparent;
     padding: 0;
     margin: 0;
+    @extend %dtrans;
+    &:hover {
+      transform: rotate(90deg);
+      @extend %htrans;
+    }
 
     p {
       color: $c500;

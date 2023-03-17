@@ -20,13 +20,13 @@
   box-shadow: 0px 5px 35px rgba(225, 242, 255, 0.9);
 }
 
-.footer-inner__social ul, .contact-form__btn button, .works-slide__info a, .services-tabs__btn, .services-cont__link a, .services-cont__link button, .services-cont, .delivering-tech__design ul li p, .delivering-tech__front ul li p, .delivering-tech__back ul li p, .delivering-tech__design ul li, .delivering-tech__front ul li, .delivering-tech__back ul li, .delivering-cont__item, .swiper-pagination-bullet, .headercont-info__link button, .headercont-info__link a, .navigation-btn a, .navigation-btn, .navigation-social a, .navigation-menu ul li a, .modal-inner__form button {
+.footer-inner__social ul, .contact-form__btn button, .works-slide__info a, .services-tabs__btn, .services-cont__link a, .services-cont__link button, .services-cont, .delivering-tech__design ul li p, .delivering-tech__front ul li p, .delivering-tech__back ul li p, .delivering-tech__design ul li, .delivering-tech__front ul li, .delivering-tech__back ul li, .delivering-cont__item, .swiper-pagination-bullet, .headercont-info__link button, .headercont-info__link a, .navigation-btn a, .navigation-btn, .navigation-social a, .navigation-menu ul li a, .modal-close, .modal-inner__form button {
   -webkit-transition: var(--d-tr);
   -o-transition: var(--d-tr);
   transition: var(--d-tr);
 }
 
-.footer-inner__social ul a:hover, .works-slide__info a:hover, .show, .services-tabs__btn.active, .services-cont__link a:hover, .delivering-tech__design ul li:hover p, .delivering-tech__front ul li:hover p, .delivering-tech__back ul li:hover p, .delivering-tech__design ul li:hover, .delivering-tech__front ul li:hover, .delivering-tech__back ul li:hover, .delivering-cont__item:hover, .swiper-pagination-bullet-active, .headercont-info__link a:hover, .navigation-btn:hover a, .navigation-social a:hover, .navigation-menu ul li a:hover {
+.footer-inner__social ul a:hover, .works-slide__info a:hover, .show, .services-tabs__btn.active, .services-cont__link a:hover, .delivering-tech__design ul li:hover p, .delivering-tech__front ul li:hover p, .delivering-tech__back ul li:hover p, .delivering-tech__design ul li:hover, .delivering-tech__front ul li:hover, .delivering-tech__back ul li:hover, .delivering-cont__item:hover, .swiper-pagination-bullet-active, .headercont-info__link a:hover, .navigation-btn:hover a, .navigation-social a:hover, .navigation-menu ul li a:hover, .modal-close:hover {
   -webkit-transition: var(--h-tr);
   -o-transition: var(--h-tr);
   transition: var(--h-tr);
@@ -219,10 +219,18 @@ a {
 
 .modal {
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 6000px;
+  z-index: 9999;
+  top: -2%;
+}
+.modal-box {
+  position: fixed;
   top: 30%;
   right: 35%;
-  width: 421px;
   z-index: 9999;
+  width: 421px;
 }
 .modal-inner {
   background: #e9eaeb;
@@ -271,6 +279,7 @@ a {
   outline: none;
 }
 .modal-inner__form button {
+  margin-top: 8px;
   background: #599d2e;
   border-radius: 39px;
   padding: 14px 0;
@@ -296,6 +305,11 @@ a {
   background: transparent;
   padding: 0;
   margin: 0;
+}
+.modal-close:hover {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .modal-close p {
   color: #979797;
@@ -519,7 +533,7 @@ a {
   background: #fff;
   border-radius: 66px;
   height: 850px;
-  z-index: 9999;
+  z-index: 9;
   color: #222939;
 }
 .delivering-cont {
