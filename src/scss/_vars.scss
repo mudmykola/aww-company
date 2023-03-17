@@ -24,6 +24,8 @@
 $c100: #222939;
 $c200: #599d2e;
 $c300: #bcbcbc;
+$c400: #ededed;
+$c500: #979797;
 
 $default: #fff;
 
@@ -79,7 +81,7 @@ $default: #fff;
 
 //hover
 
-%color-eff{
-  background: #64B531;
+%color-eff {
+  background: #64b531;
   transition: var(--h-tr);
 }
