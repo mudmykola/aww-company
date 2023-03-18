@@ -1,12 +1,14 @@
 .modal {
-  //   display: none;
-  position: absolute;
+  display: none;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 6000px;
   z-index: 9999;
   top: -2%;
-
+  overflow: auto;
+  opacity: 0;
+  transition: all 0.5s ease;
   &-box {
     position: fixed;
     top: 30%;
@@ -89,4 +91,10 @@
       font-size: 17px;
     }
   }
+}
+.show-modal {
+  display: flex;
+  overflow: auto;
+  opacity: 1;
+  transition: all 0.3s ease;
 }

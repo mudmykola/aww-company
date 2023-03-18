@@ -31,6 +31,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_works_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_works_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_form_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/form.js */ "./src/js/components/form.js");
 /* harmony import */ var _components_form_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_components_form_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_modal_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/modal.js */ "./src/js/components/modal.js");
+/* harmony import */ var _components_modal_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_modal_js__WEBPACK_IMPORTED_MODULE_6__);
+
 
 
 
@@ -255,6 +258,32 @@ form.addEventListener("submit", e => {
 //     })
 //     .catch((error) => console.error(error));
 // });
+
+/***/ }),
+
+/***/ "./src/js/components/modal.js":
+/*!************************************!*\
+  !*** ./src/js/components/modal.js ***!
+  \************************************/
+/***/ (() => {
+
+const openBtn = document.querySelector(".navigation-btn");
+const modal = document.querySelector(".modal");
+const closeModalBtn = document.querySelector(".modal-close");
+openBtn.addEventListener("click", () => {
+  modal.classList.add("show-modal");
+  document.body.style.overflow = "hidden";
+});
+closeModalBtn.addEventListener("click", () => {
+  modal.classList.remove("show-modal");
+  document.body.style.overflow = "auto";
+});
+modal.addEventListener("click", event => {
+  if (event.target === modal) {
+    modal.classList.remove("show-modal");
+    document.body.style.overflow = "auto";
+  }
+});
 
 /***/ }),
 
