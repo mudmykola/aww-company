@@ -1,137 +1,135 @@
-.delivering{
+.delivering {
   position: relative;
   background: $default;
   border-radius: 66px;
   height: 850px;
-  z-index: 9999;
+  z-index: 9;
   color: $c100;
-  &-cont{
+  &-cont {
     padding-top: 60px;
-    h2{
+    h2 {
       width: 100%;
       text-align: center;
       font-size: 42px;
       line-height: 50px;
       font-weight: var(--font-r);
-      span{
+      span {
         font-weight: var(--font-b);
       }
-
     }
-    ul{
+    ul {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding-top: 81px;
-
     }
-    &__item{
+    &__item {
       display: flex;
       align-items: flex-start;
-      @extend  %dtrans;
+      @extend %dtrans;
       border-radius: 0%;
       cursor: pointer;
-&:hover{
-  border-radius: 8%;
+      &:hover {
+        border-radius: 8%;
 
-  @extend  %border-ef;
-  @extend  %htrans;
-}
-      &--text{
+        @extend %border-ef;
+        @extend %htrans;
+      }
+      &--text {
         margin-left: 29px;
         width: 254px;
-        h3{
+        h3 {
           font-size: 20px;
           line-height: 25px;
-          font-weight: var('--font-sb');
+          font-weight: var("--font-sb");
           margin-bottom: 10px;
         }
-        p{
+        p {
           font-weight: var(--font-l);
         }
       }
     }
   }
-  &-tech{
+  &-tech {
     margin-top: 84px;
-    h2{
+    h2 {
       text-align: left;
       font-size: 44px;
       line-height: 50px;
       font-weight: var(--font-l);
-      span{
+      span {
         font-weight: var(--font-b);
       }
     }
-&__design,&__front,&__back{
-  display: flex;
-  align-items: center;
-  margin-top: 37px;
-  h3{
-    font-size: 21px;
-    line-height: 28px;
-    font-weight: var(--font-sb);
-    color: $c200;
-    margin-right: 102px;
-  }
-  ul{
-    display: grid;
-  gap:40px;
-    grid-template-columns: repeat(5,1fr);
-    padding: 0;
-    li{
-      cursor: pointer;
-      text-align: center;
-      font-weight: var(--font-r);
-      filter: grayscale(100%);
-      @extend  %dtrans;
-
-      p{
-        text-transform: uppercase;
-        font-size: 15px;
-        line-height: 20px;
-        font-weight: var(--font-r);
-        margin-top: 9px;
-        opacity: 0.8;
-        @extend  %dtrans;
+    &__design,
+    &__front,
+    &__back {
+      display: flex;
+      align-items: center;
+      margin-top: 37px;
+      h3 {
+        font-size: 21px;
+        line-height: 28px;
+        font-weight: var(--font-sb);
+        color: $c200;
+        margin-right: 102px;
       }
-      &:hover{
-        @extend  %htrans;
-        filter: grayscale(0%);
-        p{
-          opacity: 1;
-          @extend  %htrans;
+      ul {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0;
+        li {
+          cursor: pointer;
+          text-align: center;
+          font-weight: var(--font-r);
+          filter: grayscale(100%);
+          @extend %dtrans;
+
+          p {
+            text-transform: uppercase;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: var(--font-r);
+            margin-top: 9px;
+            opacity: 0.8;
+            @extend %dtrans;
+          }
+          &:hover {
+            @extend %htrans;
+            filter: grayscale(0%);
+            p {
+              opacity: 1;
+              @extend %htrans;
+            }
+          }
         }
       }
-
     }
-  }
-}
-    &__front{
+    &__front {
       margin: 40px 0;
     }
-&__front,&__back{
-  h3{
-    margin-right: 77px;
-  }
-  ul{
-    li{
-      p{
-        text-transform: uppercase;
+    &__front,
+    &__back {
+      h3 {
+        margin-right: 77px;
+      }
+      ul {
+        li {
+          p {
+            text-transform: uppercase;
+          }
+        }
       }
     }
-  }
-}
-    &__back{
+    &__back {
       margin-top: 0;
-      h3{
+      h3 {
         margin-right: 85px;
       }
     }
   }
-
 }
-
 
 // 768
 @media (max-width: 768px) {

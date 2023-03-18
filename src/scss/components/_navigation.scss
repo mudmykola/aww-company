@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 9999;
+
   position: relative;
+  z-index: 9999;
   &-block {
     margin: 11px 0;
   }
@@ -47,13 +48,14 @@
     @extend %dtrans;
     a {
       color: $c100;
+      @extend %dtrans;
     }
     &:hover {
-      background: $c200;
+      @extend %color-eff;
 
-      @extend %htrans;
       a {
         color: $default;
+        @extend %htrans;
       }
     }
   }

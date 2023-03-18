@@ -56,9 +56,7 @@
         cursor: pointer;
         @extend %dtrans;
         &:hover {
-          background: $default;
-          color: $c100;
-          @extend %htrans;
+          @extend %color-eff;
         }
       }
     }
