@@ -385,6 +385,11 @@ a {
   color: #fff;
 }
 
+@media (max-width: 320px) {
+  .navigation-logo, .navigation-menu, .navigation-social, .navigation-btn {
+    display: none;
+  }
+}
 .headercont {
   position: relative;
   display: -webkit-box;
