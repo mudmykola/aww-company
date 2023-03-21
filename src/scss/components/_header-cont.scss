@@ -3,17 +3,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   &-info {
     max-width: 675px;
+
     h1 {
       width: 95%;
       font-size: 54px;
       line-height: 65px;
       font-weight: var(--font-l);
+
       span {
         font-weight: var(--font-bk);
       }
     }
+
     p {
       font-size: 16px;
       line-height: 20px;
@@ -21,20 +25,25 @@
       padding: 32px 0 66px;
       width: 70%;
     }
+
     &__link {
       display: flex;
       align-items: center;
+
       a {
         margin-right: 58px;
         z-index: 999;
         position: relative;
         @extend %dtrans;
+
         &:hover {
           opacity: 0.8;
           @extend %htrans;
         }
+
         color: $c200;
         font-weight: var(--font-m);
+
         &:after {
           content: "";
           position: absolute;
@@ -49,28 +58,34 @@
           margin-left: 10px;
         }
       }
+
       button {
         z-index: 999;
         @extend %global-btn;
         border: none;
         cursor: pointer;
         @extend %dtrans;
+
         &:hover {
           @extend %color-eff;
         }
       }
     }
+
     &__awards {
       margin-top: 60px;
+
       ul {
         display: flex;
         align-items: center;
+
         li + li {
           margin-left: 73px;
         }
       }
     }
   }
+
   &-slider {
     display: flex;
     max-width: 497px;
@@ -96,6 +111,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 3px;
+
         &:after {
           position: absolute;
           content: "";
@@ -109,12 +125,14 @@
           right: 30%;
         }
       }
+
       p {
         font-size: 14px;
         line-height: 20px;
         font-weight: var(--font-l);
         margin-bottom: 6px;
       }
+
       strong {
         font-size: 15px;
         line-height: 20px;
@@ -122,6 +140,7 @@
       }
     }
   }
+
   &-pagination {
     margin: 0 0 20px 20px;
     position: absolute;
@@ -149,7 +168,6 @@
   &-active {
     width: 47px;
     @extend %htrans;
-
     background: $c200;
   }
 }
@@ -168,4 +186,57 @@
 
 // 320
 @media (max-width: 320px) {
+
+  .header-cont__block {
+    max-width: 290px;
+  }
+  .headercont {
+
+    flex-direction: column;
+
+    &-info {
+      width: 290px;
+
+      h1 {
+        font-size: 22px;
+        line-height: 32px;
+      }
+
+      p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 18px 0 40px;
+      }
+
+      &__link {
+        a {
+          font-size: 13px;
+          line-height: 15px;
+          width: 64%;
+          margin-right: 30px;
+
+          &:after {
+            width: 18px;
+            height: 18px;
+            margin-left: 8px;
+          }
+        }
+
+        button {
+          width: 60%;
+          padding: 14px 7px;
+          font-size: 13px;
+          line-height: 15px;
+        }
+      }
+    }
+
+    &-slider {
+      display: none;
+      width: 300px;
+      right: 0;
+    }
+
+  }
 }

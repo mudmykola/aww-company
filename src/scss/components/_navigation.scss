@@ -60,3 +60,35 @@
     }
   }
 }
+
+// 768
+@media (max-width: 768px) {
+}
+
+// 600
+@media (max-width: 600px) {
+}
+
+// 480
+@media (max-width: 480px) {
+}
+
+// 320
+@media (max-width: 320px) {
+  .navigation {
+    background: $c100;
+    width: 320px;
+    height: 50px;
+    top: -11px;
+    left: -15px;
+    border-radius: 0 0 22px 22px;
+    display: flex;
+    justify-content: center;
+    &-logo,
+    &-menu,
+    &-social,
+    &-btn {
+      display: none;
+    }
+  }
+}

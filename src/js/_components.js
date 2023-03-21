@@ -5,3 +5,4 @@ import services from "./components/services-tab";
 import works from "./components/works.js";
 import form from "./components/form.js";
 import modal from "./components/modal.js";
+import burger from "./components/burger.js";
