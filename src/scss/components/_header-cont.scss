@@ -230,6 +230,23 @@
           line-height: 15px;
         }
       }
+
+      &__awards {
+        ul {
+          width: 290px;
+          margin: 0 auto;
+
+          li {
+            img {
+              width: 65%;
+            }
+          }
+
+          li + li {
+            margin-left: -1%;
+          }
+        }
+      }
     }
 
     &-slider {
