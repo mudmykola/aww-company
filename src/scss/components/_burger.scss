@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-
   &-inner {
     display: none;
     justify-content: space-between;
@@ -14,6 +13,14 @@
       margin-right: 31px;
       display: flex;
       align-items: center;
+      img{
+        cursor: pointer;
+        @extend %dtrans;
+        &:hover{
+          opacity: 0.5;
+          @extend  %htrans;
+        }
+      }
       img + img {
         margin-left: 31px;
       }
@@ -21,10 +28,8 @@
     &__btn {
       z-index: 9999;
       height: 22px;
-
       display: block;
       width: 30px;
-
       position: relative;
       cursor: pointer;
       input {
@@ -40,11 +45,9 @@
         position: absolute;
         left: 0;
         transition: all 0.3s ease-in-out;
-
         &:nth-child(1) {
           top: 0;
         }
-
         &:nth-child(3) {
           width: 50%;
           margin-right: 0 auto;
@@ -54,42 +57,70 @@
           transform: translateY(-50%);
           background-color: $default;
         }
-
         &:nth-child(3) {
           bottom: 0;
         }
       }
-
       &.active span {
         &:nth-child(4) {
-          top: 22%;
+          top: 55%;
           transform: translateY(-50%) rotate(45deg);
           background-color: $default;
         }
-
         &:nth-child(2) {
           opacity: 0;
         }
-
         &:nth-child(3) {
-          top: 13%;
+          top: 45%;
           transform: translateY(50%) rotate(-45deg);
           background-color: $default;
           width: 100%;
         }
       }
     }
-
     &__content {
       display: none;
       position: fixed;
-      top: 0;
+      top: 3%;
       left: 0;
       right: 0;
       bottom: 0;
       background-color: $c100;
-      z-index: 999;
+      z-index: -1;
+ul{
+  text-align: center;
+  margin-top: 53px;
+}
+      li{
+        a{
+          font-size: 23px;
+          line-height: 30px;
+          font-weight: var(--font-r);
+          @extend  %dtrans;
+          &:hover{
+            @extend  %htrans;
+color: $c600;
+          }
+        }
+      }
+      li+li{
+        margin-top: 32px;
+      }
+      &--social{
+        text-align: center;
+        margin-top: 32px;
+        a{
+          @extend  %dtrans;
+          &:hover{
+            @extend  %htrans;
 
+            opacity: 0.5;
+          }
+        }
+        a+a{
+          margin-left: 32px;
+        }
+      }
       &.active {
         display: block;
         animation: slide-down 0.3s ease-in-out;
@@ -97,7 +128,6 @@
     }
   }
 }
-
 @keyframes slide-down {
   0% {
     transform: translateY(-100%);
@@ -106,7 +136,6 @@
     transform: translateY(0);
   }
 }
-
 // 768
 @media (max-width: 768px) {
 }

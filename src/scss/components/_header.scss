@@ -2,6 +2,7 @@
   position: relative;
   min-height: 768px;
   height: 100%;
+
   &::after {
     position: absolute;
     content: "";
@@ -14,6 +15,7 @@
     display: inline-block;
     bottom: 0%;
   }
+
   &-el {
     &__top {
       position: absolute;
@@ -28,6 +30,7 @@
       background: $c200;
       filter: blur(155px);
     }
+
     &__bottom {
       position: absolute;
       bottom: 0;
@@ -57,4 +60,15 @@
 
 // 320
 @media (max-width: 320px) {
+  .header {
+    &-el {
+      &__top {
+        width: 150px;
+        height: 150px;
+        top: -7%;
+
+
+      }
+    }
+  }
 }
