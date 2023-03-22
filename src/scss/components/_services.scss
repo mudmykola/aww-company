@@ -228,4 +228,12 @@
 
 // 320
 @media (max-width: 320px) {
+  .services {
+    &-el {
+      &__top {
+        top: -3%;
+        height: 320px;
+      }
+    }
+  }
 }

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="feat: Improved burger menu + adapted header-cont part.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-    </list>
+    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="style: Adapted the header." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +111,7 @@
       <workItem from="1678940999230" duration="1286000" />
       <workItem from="1679343494768" duration="97000" />
       <workItem from="1679372599666" duration="4994000" />
-      <workItem from="1679423495705" duration="2128000" />
+      <workItem from="1679423495705" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add markup + style delivering section.">
       <created>1678390668120</created>
@@ -168,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679378357562</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="style: Adapted the header.">
+      <created>1679425907065</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679425907065</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +193,8 @@
     <MESSAGE value="style: Finished styling the service section." />
     <MESSAGE value="feat: Added markup and styling to the work slider." />
     <MESSAGE value="feat: Improved burger menu + adapted header-cont part." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Improved burger menu + adapted header-cont part." />
+    <MESSAGE value="style: Adapted the header." />
+    <option name="LAST_COMMIT_MESSAGE" value="style: Adapted the header." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
