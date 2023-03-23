@@ -139,5 +139,31 @@
         text-align: center;
       }
     }
+    &-content {
+      height: 100vh;
+    }
+    &-slide {
+      flex-direction: column;
+      &__info {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        h2 {
+          font-size: 16px;
+          line-height: 25px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        a {
+          &::after {
+            width: 21px;
+            height: 21px;
+          }
+        }
+      }
+    }
   }
 }

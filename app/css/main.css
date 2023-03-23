@@ -1459,6 +1459,32 @@ a {
     line-height: 42px;
     text-align: center;
   }
+  .works-content {
+    height: 100vh;
+  }
+  .works-slide {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .works-slide__info {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .works-slide__info h2 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .works-slide__info p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .works-slide__info a::after {
+    width: 21px;
+    height: 21px;
+  }
 }
 .about {
   position: relative;
