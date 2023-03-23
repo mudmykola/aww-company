@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="feat: Added functional works slider.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_burger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_burger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-cont.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-    </list>
+    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="style: Adapted the header." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +29,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGulp">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,6 +54,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
+    "js.buildTools.gulp.gulp_package_dir": "/media/mykola/Data/Dev/aww-company/node_modules/gulp",
     "last_opened_file_path": "/media/mykola/Data/JS/test-js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -73,6 +71,17 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/partials" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,7 +110,8 @@
       <workItem from="1678903347074" duration="251000" />
       <workItem from="1678940999230" duration="1286000" />
       <workItem from="1679343494768" duration="97000" />
-      <workItem from="1679372599666" duration="4791000" />
+      <workItem from="1679372599666" duration="4994000" />
+      <workItem from="1679423495705" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add markup + style delivering section.">
       <created>1678390668120</created>
@@ -145,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678802379462</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Improved burger menu + adapted header-cont part.">
+      <created>1679378357562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679378357562</updated>
+    </task>
+    <task id="LOCAL-00008" summary="style: Adapted the header.">
+      <created>1679425907065</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679425907065</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +192,9 @@
     <MESSAGE value="feat: Added markup to the service section." />
     <MESSAGE value="style: Finished styling the service section." />
     <MESSAGE value="feat: Added markup and styling to the work slider." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Added markup and styling to the work slider." />
+    <MESSAGE value="feat: Improved burger menu + adapted header-cont part." />
+    <MESSAGE value="style: Adapted the header." />
+    <option name="LAST_COMMIT_MESSAGE" value="style: Adapted the header." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
