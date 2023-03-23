@@ -3,6 +3,7 @@
 
   &-tab {
     padding-top: 76px;
+
     &:after {
       position: absolute;
       top: -25%;
@@ -16,16 +17,19 @@
       background: $c200;
       filter: blur(155px);
     }
+
     h2 {
       font-size: 44px;
       line-height: 50px;
       font-weight: var(--font-r);
       padding-bottom: 55px;
+
       span {
         font-weight: var(--font-bk);
       }
     }
   }
+
   &-cont {
     display: none;
     height: 434px;
@@ -33,24 +37,30 @@
     transition: opacity 0.5s ease-in-out;
     opacity: 0;
     @extend %dtrans;
+
     &__text {
       width: 568px;
       margin-left: 53px;
+
       h2 {
         font-size: 30px;
         line-height: 35px;
         font-weight: var(--font-sb);
         margin-bottom: 21px;
       }
+
       p {
         font-weight: var(--font-r);
       }
+
       p + p {
         margin-top: 20px;
       }
     }
+
     &__link {
       margin-top: 43px;
+
       button {
         @extend %global-btn;
         border: none;
@@ -64,6 +74,7 @@
           @extend %color-eff;
         }
       }
+
       a {
         position: relative;
         font-weight: var(--font-m);
@@ -82,7 +93,9 @@
           height: 24px;
           top: 5%;
         }
+
         @extend %dtrans;
+
         &:hover {
           opacity: 0.8;
           @extend %htrans;
@@ -90,10 +103,12 @@
       }
     }
   }
+
   &-tabs {
     button + button {
       margin-left: 23px;
     }
+
     &__btn {
       @extend %global-btn;
       font-weight: var(--font-sb);
@@ -104,6 +119,7 @@
       color: $c100;
       cursor: pointer;
       @extend %dtrans;
+
       &.active {
         background: $c200;
         color: $default;
@@ -111,6 +127,7 @@
       }
     }
   }
+
   &-el {
     &__top {
       position: absolute;
@@ -127,11 +144,13 @@
       opacity: 0.2;
     }
   }
+
   &-expertise {
     position: relative;
     padding: 61px 0 99px;
     background: linear-gradient(180deg, #222939 0%, #222939 100%);
     border-radius: 66px;
+
     span {
       content: "";
       position: absolute;
@@ -141,6 +160,7 @@
       height: 15%;
       z-index: -1;
     }
+
     &:after {
       content: "";
       position: absolute;
@@ -155,6 +175,7 @@
       //overflow: hidden;
       opacity: 0.3;
     }
+
     &:before {
       position: absolute;
       top: -10%;
@@ -168,19 +189,23 @@
       background: $c200;
       filter: blur(155px);
     }
+
     &__title {
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
+
       h2 {
         font-size: 44px;
         line-height: 50px;
         font-weight: var(--font-l);
         color: $default;
+
         strong {
           font-weight: var(--font-b);
         }
       }
+
       p {
         width: 585px;
         font-size: 16px;
@@ -188,14 +213,18 @@
         font-weight: var(--font-r);
       }
     }
+
     &__inner {
       margin-top: 91px;
+
       ul {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 157px;
+
         li {
           text-align: center;
+
           p {
             font-size: 20px;
             line-height: 25px;
@@ -229,12 +258,15 @@
 // 320
 @media (max-width: 320px) {
   .services {
+    border-radius: 35px;
+
     &-el {
       &__top {
         top: -3%;
         height: 320px;
       }
     }
+
     &-tab {
       width: 290px;
 
@@ -244,22 +276,28 @@
         text-align: center;
       }
     }
+
     &-tabs {
       width: 290px;
+
       button {
         width: 100%;
       }
+
       button + button {
         margin-left: 0;
         margin-top: 6px;
       }
     }
+
     &-cont {
       flex-direction: column;
       width: 290px;
+
       &__img {
         display: none;
       }
+
       &__text {
         width: 290px;
         margin-left: 0;
@@ -269,15 +307,18 @@
           font-size: 25px;
           line-height: 30px;
         }
+
         p {
           font-size: 14px;
           line-height: 18px;
         }
       }
+
       &__link {
         width: 290px;
         display: flex;
         align-items: center;
+
         button {
           width: 150px;
           font-size: 13px;
@@ -285,8 +326,10 @@
           padding: 9px;
           height: 50px;
         }
+
         a {
           padding-left: 20px;
+
           &:after {
             width: 21px;
             height: 21px;
@@ -295,17 +338,21 @@
         }
       }
     }
+
     &-expertise {
       border-radius: 35px;
+
       &__title {
         width: 290px;
         flex-direction: column;
+
         h2 {
           font-size: 32px;
           line-height: 42px;
           text-align: center;
           margin-bottom: 20px;
         }
+
         p {
           width: 290px;
           text-align: center;
@@ -313,12 +360,14 @@
           line-height: 18px;
         }
       }
+
       &__inner {
         width: 290px;
+
         ul {
           gap: 40px;
           grid-template-columns: repeat(3, 1fr);
-          align-items: center;
+          -webkit-align-items: center;
 
           li {
             text-align: center;
@@ -326,6 +375,7 @@
             img {
               width: 50%;
             }
+
             p {
               font-size: 14px;
               line-height: 18px;

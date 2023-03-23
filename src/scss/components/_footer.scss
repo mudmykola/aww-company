@@ -1,5 +1,6 @@
 .footer {
   margin: 75px 0 100px;
+
   &-inner {
     display: flex;
     justify-content: space-between;
@@ -7,8 +8,10 @@
     border-radius: 20px;
     padding: 38px 41px;
     background: #1f2632;
+
     &__copy {
       width: 137px;
+
       p {
         font-size: 13px;
         line-height: 18px;
@@ -16,18 +19,55 @@
         color: #969696;
       }
     }
+
     &__social {
       ul {
         display: flex;
         align-items: center;
         @extend %dtrans;
+
         a:hover {
           opacity: 0.8;
           @extend %htrans;
         }
+
         li + li {
           margin-left: 16px;
         }
+      }
+    }
+  }
+}
+
+// 768
+@media (max-width: 768px) {
+}
+
+// 600
+@media (max-width: 600px) {
+}
+
+// 480
+@media (max-width: 480px) {
+}
+
+// 320
+@media (max-width: 320px) {
+  .footer {
+    width: 290px;
+    margin: 50px 0;
+
+    &-inner {
+      flex-direction: column;
+
+      &__copy {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      &__partner {
+        display: none;
       }
     }
   }

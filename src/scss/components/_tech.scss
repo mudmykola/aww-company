@@ -4,6 +4,7 @@
   border-radius: 60px;
   color: $c100;
   padding: 61px 0;
+
   &::after {
     position: absolute;
     content: "";
@@ -18,9 +19,37 @@
     overflow: hidden;
     z-index: -1;
   }
+
   &-inner {
     &__marg {
       margin: 0;
+    }
+  }
+}
+
+// 768
+@media (max-width: 768px) {
+}
+
+// 600
+@media (max-width: 600px) {
+}
+
+// 480
+@media (max-width: 480px) {
+}
+
+// 320
+@media (max-width: 320px) {
+  .tech {
+    border-radius: 35px;
+
+    &-inner {
+      h2 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+      }
     }
   }
 }

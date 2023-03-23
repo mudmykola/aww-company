@@ -1,6 +1,7 @@
 .about {
   position: relative;
   z-index: -1;
+
   span {
     position: absolute;
     bottom: -60%;
@@ -13,6 +14,7 @@
     background: $c200;
     filter: blur(155px);
   }
+
   &:after {
     position: absolute;
     content: "";
@@ -26,6 +28,7 @@
     top: -25%;
     overflow: hidden;
   }
+
   &:before {
     position: absolute;
     top: -15%;
@@ -38,8 +41,10 @@
     background: $c200;
     filter: blur(155px);
   }
+
   &-inner {
     padding-top: 118px;
+
     &__title {
       h2 {
         font-size: 44px;
@@ -47,13 +52,16 @@
         font-weight: var(--font-bk);
       }
     }
+
     &__cont {
       margin-top: 57px;
+
       ul {
         li {
           position: relative;
           display: flex;
           justify-content: space-between;
+
           &:after {
             position: absolute;
             content: "";
@@ -67,6 +75,7 @@
             width: 220px;
             height: 220px;
           }
+
           p {
             font-weight: var(--font-r);
             line-height: 25px;
@@ -75,8 +84,10 @@
         }
       }
     }
+
     &__bottom {
       margin: 60px 0 100px;
+
       ul {
         li {
           display: flex;
@@ -84,20 +95,102 @@
           align-items: center;
         }
       }
+
       &--text {
         width: 395px;
+
         h2 {
           font-size: 24px;
           line-height: 30px;
           font-weight: var(--font-b);
           margin-bottom: 17px;
         }
+
         p {
           line-height: 25px;
           font-weight: var(--font-r);
         }
+
         p + p {
           margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+// 768
+@media (max-width: 768px) {
+}
+
+// 600
+@media (max-width: 600px) {
+}
+
+// 480
+@media (max-width: 480px) {
+}
+
+// 320
+@media (max-width: 320px) {
+  .about {
+    &:before {
+      top: -6%;
+      width: 150px;
+      height: 150px;
+    }
+
+    &-inner {
+      width: 290px;
+      padding-top: 75px;
+
+      &__title {
+        h2 {
+          font-size: 32px;
+          line-height: 40px;
+          text-align: center;
+        }
+      }
+
+      &__cont {
+        text-align: center;
+        margin-top: 30px;
+
+        ul {
+          li {
+            flex-direction: column;
+
+            &:after {
+              top: 68%;
+              width: 170px;
+              height: 170px;
+              right: -1%;
+            }
+
+            p {
+              width: 100%;
+            }
+
+            img {
+              margin-top: 50px;
+            }
+          }
+        }
+      }
+
+      &__bottom {
+        text-align: center;
+
+        &--text {
+          margin-top: 30px;
+          width: 100%;
+        }
+
+        ul {
+          li {
+            flex-direction: column;
+          }
         }
       }
     }
