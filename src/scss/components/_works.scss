@@ -2,30 +2,38 @@
   background: $default;
   padding-bottom: 60px;
   border-radius: 0 0 60px 60px;
+
   &-inner {
     color: $c100;
     padding-top: 97px;
+
     h2 {
       font-size: 44px;
       line-height: 50px;
       font-weight: var(--font-l);
+
       span {
         font-weight: var(--font-b);
       }
     }
   }
+
   &-content {
     overflow: hidden;
     margin: 57px 0 25px;
+
     &__wrapper {
       width: 100%;
     }
   }
+
   &-slide {
     display: flex;
     justify-content: center;
+
     &__img {
       position: relative;
+
       span {
         position: absolute;
         bottom: 3%;
@@ -39,9 +47,11 @@
         border-radius: 10px;
       }
     }
+
     &__info {
       width: 55%;
       margin-left: 48px;
+
       button {
         font-weight: var(--font-l);
         border: 1px solid $c100;
@@ -51,29 +61,35 @@
         margin-bottom: 25px;
         border-radius: 2px;
       }
+
       h2 {
         font-size: 30px;
         line-height: 35px;
         font-weight: var(--font-sb);
       }
+
       p {
         margin-top: 25px;
         font-size: 17px;
         line-height: 23px;
       }
+
       p + p {
         margin-bottom: 25px;
       }
+
       a {
         color: $c200;
         margin-top: 25px;
         font-weight: var(--font-m);
         cursor: pointer;
         @extend %dtrans;
+
         &:hover {
           opacity: 0.8;
           @extend %htrans;
         }
+
         &:after {
           position: absolute;
           content: "";
@@ -88,21 +104,25 @@
       }
     }
   }
+
   &-pagination {
     width: 169px;
     border-radius: 70px;
     margin: 0 auto;
+
     &__box {
       padding: 5px 26px;
     }
 
     background: $c100;
+
     button {
       width: 17px;
       height: 2px;
       background: $c300;
       border-radius: 12px;
       vertical-align: middle;
+
       &.active {
         width: 47px;
         background: $c200;
@@ -110,6 +130,7 @@
     }
   }
 }
+
 .swiper-pagination-horizontal {
   max-width: 169px;
   height: 28px;
@@ -130,6 +151,8 @@
 // 320
 @media (max-width: 320px) {
   .works {
+    border-radius: 35px;
+
     &-inner {
       width: 290px;
 
@@ -139,19 +162,24 @@
         text-align: center;
       }
     }
+
     &-content {
       height: 100vh;
     }
+
     &-slide {
       flex-direction: column;
+
       &__info {
         width: 100%;
         margin-left: 0;
         text-align: center;
+
         h2 {
           font-size: 16px;
           line-height: 25px;
         }
+
         p {
           font-size: 14px;
           line-height: 20px;
@@ -167,3 +195,4 @@
     }
   }
 }
+

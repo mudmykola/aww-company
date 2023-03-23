@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   &-adress {
     &__title {
       font-size: 44px;
@@ -13,11 +14,13 @@
 
     ul {
       margin-top: 28px;
+
       h3 {
         font-size: 24px;
         line-height: 30px;
         font-weight: var(--font-b);
       }
+
       li {
         p,
         a {
@@ -27,10 +30,12 @@
           font-weight: var(--font-r);
         }
       }
+
       li + li {
         margin-top: 33px;
       }
     }
+
     &__text,
     &__link {
       display: flex;
@@ -38,17 +43,21 @@
       margin-top: 23px;
     }
   }
+
   &-form {
     width: 480px;
+
     h2 {
       font-size: 20px;
       line-height: 25px;
       font-weight: var(--font-m);
       margin-bottom: 28px;
     }
+
     form {
       display: flex;
       flex-direction: column;
+
       input {
         background: $default;
         border-radius: 6px;
@@ -58,6 +67,7 @@
         outline: none;
         margin-bottom: 14px;
       }
+
       textarea {
         outline: none;
         background: $default;
@@ -68,16 +78,20 @@
         height: 138px;
         margin-bottom: 14px;
       }
+
       button {
       }
     }
+
     &__btn {
       display: flex;
       align-items: center;
       justify-content: space-between;
+
       p {
         font-weight: var(--font-b);
       }
+
       button {
         background: $c200;
         border-radius: 39px;
@@ -89,10 +103,73 @@
         width: 174px;
         float: right;
         @extend %dtrans;
+
         &:hover {
           @extend %color-eff;
         }
       }
+    }
+  }
+}
+
+// 768
+@media (max-width: 768px) {
+}
+
+// 600
+@media (max-width: 600px) {
+}
+
+// 480
+@media (max-width: 480px) {
+}
+
+// 320
+@media (max-width: 320px) {
+  .contact {
+    &-inner {
+      width: 290px;
+      flex-direction: column;
+
+      &__adress {
+        width: 290px;
+      }
+
+
+    }
+
+    &-adress {
+
+
+      ul {
+        li {
+          img {
+            width: 8%;
+          }
+
+          p, a {
+            font-size: 15px;
+            line-height: 18px;
+            margin-left: 10px;
+          }
+
+          h3 {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+      }
+
+
+      &__title {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    &-form {
+      margin-top: 30px;
+      width: 290px;
     }
   }
 }
