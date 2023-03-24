@@ -63,14 +63,62 @@
 
 // 768
 @media (max-width: 768px) {
+  .navigation {
+    background: $c100;
+    width: 760px;
+    height: 70px;
+    top: -11px;
+    left: -15px;
+    border-radius: 0 0 22px 22px;
+    display: flex;
+    justify-content: center;
+    &-logo,
+    &-menu,
+    &-social,
+    &-btn {
+      display: none;
+    }
+  }
 }
 
 // 600
 @media (max-width: 600px) {
+  .navigation {
+    background: $c100;
+    width: 570px;
+    height: 70px;
+    top: -11px;
+    left: -15px;
+    border-radius: 0 0 22px 22px;
+    display: flex;
+    justify-content: center;
+    &-logo,
+    &-menu,
+    &-social,
+    &-btn {
+      display: none;
+    }
+  }
 }
 
 // 480
 @media (max-width: 480px) {
+  .navigation {
+    background: $c100;
+    width: 480px;
+    height: 50px;
+    top: -11px;
+    left: -15px;
+    border-radius: 0 0 22px 22px;
+    display: flex;
+    justify-content: center;
+    &-logo,
+    &-menu,
+    &-social,
+    &-btn {
+      display: none;
+    }
+  }
 }
 
 // 320

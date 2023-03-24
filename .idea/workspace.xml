@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="style: Adapted the header.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/about-el-2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/about-img-1.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/about-img-2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/header-el.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/header-icon-1.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/header-icon-2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/header-icon-3.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/header-icon-4.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/header-icon-5.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/header-img.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/services-el-1.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/services-el-2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/services-img-1.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/services-img-2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/tech-el-1.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/works-img-1.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_tech.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_tech.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_works.scss" afterDir="false" />
-    </list>
+    <list default="true" id="b256382a-bff5-4d03-8c07-225274ae88fe" name="Changes" comment="feat: The final adaptation of 320 breakpoints." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +112,7 @@
       <workItem from="1679343494768" duration="97000" />
       <workItem from="1679372599666" duration="4994000" />
       <workItem from="1679423495705" duration="2586000" />
-      <workItem from="1679591619320" duration="5496000" />
+      <workItem from="1679591619320" duration="5680000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add markup + style delivering section.">
       <created>1678390668120</created>
@@ -198,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679425907065</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: The final adaptation of 320 breakpoints.">
+      <created>1679599454770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679599454770</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +202,8 @@
     <MESSAGE value="feat: Added markup and styling to the work slider." />
     <MESSAGE value="feat: Improved burger menu + adapted header-cont part." />
     <MESSAGE value="style: Adapted the header." />
-    <option name="LAST_COMMIT_MESSAGE" value="style: Adapted the header." />
+    <MESSAGE value="feat: The final adaptation of 320 breakpoints." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: The final adaptation of 320 breakpoints." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -13,12 +13,12 @@
       margin-right: 31px;
       display: flex;
       align-items: center;
-      img{
+      img {
         cursor: pointer;
         @extend %dtrans;
-        &:hover{
+        &:hover {
           opacity: 0.5;
-          @extend  %htrans;
+          @extend %htrans;
         }
       }
       img + img {
@@ -87,37 +87,37 @@
       bottom: 0;
       background-color: $c100;
       z-index: -1;
-ul{
-  text-align: center;
-  margin-top: 53px;
-}
-      li{
-        a{
+      ul {
+        text-align: center;
+        margin-top: 53px;
+      }
+      li {
+        a {
           font-size: 23px;
           line-height: 30px;
           font-weight: var(--font-r);
-          @extend  %dtrans;
-          &:hover{
-            @extend  %htrans;
-color: $c600;
+          @extend %dtrans;
+          &:hover {
+            @extend %htrans;
+            color: $c600;
           }
         }
       }
-      li+li{
+      li + li {
         margin-top: 32px;
       }
-      &--social{
+      &--social {
         text-align: center;
         margin-top: 32px;
-        a{
-          @extend  %dtrans;
-          &:hover{
-            @extend  %htrans;
+        a {
+          @extend %dtrans;
+          &:hover {
+            @extend %htrans;
 
             opacity: 0.5;
           }
         }
-        a+a{
+        a + a {
           margin-left: 32px;
         }
       }
@@ -138,14 +138,71 @@ color: $c600;
 }
 // 768
 @media (max-width: 768px) {
+  .menu {
+    width: 100%;
+    &-inner {
+      display: flex;
+      width: 730px;
+      &__social {
+        margin-right: -45%;
+      }
+      &__btn {
+        z-index: 9999;
+        height: 22px;
+        cursor: pointer;
+
+        input {
+          opacity: 0;
+          position: absolute;
+          top: 0;
+        }
+      }
+    }
+  }
 }
 
 // 600
 @media (max-width: 600px) {
+  .menu {
+    width: 100%;
+    &-inner {
+      display: flex;
+      width: 550px;
+      &__btn {
+        z-index: 9999;
+        height: 22px;
+        cursor: pointer;
+
+        input {
+          opacity: 0;
+          position: absolute;
+          top: 0;
+        }
+      }
+    }
+  }
 }
 
 // 480
 @media (max-width: 480px) {
+  .menu {
+    width: 100%;
+    &-inner {
+      display: flex;
+      width: 450px;
+      &__btn {
+        z-index: 9999;
+        height: 22px;
+        cursor: pointer;
+
+        input {
+          opacity: 0;
+          position: absolute;
+          top: 0;
+        }
+      }
+    }
+  }
 }
 
 // 320
