@@ -49,7 +49,7 @@
 // 768
 @media (max-width: 768px) {
   .header {
-    min-height: 730px;
+    min-height: 800px;
 
     &:after {
       bottom: -17%;
@@ -101,7 +101,7 @@
 // 480
 @media (max-width: 480px) {
   .header {
-    min-height: 600px;
+    min-height: 500px;
 
     &:after {
       bottom: -17%;
@@ -127,7 +127,7 @@
 // 320
 @media (max-width: 320px) {
   .header {
-    min-height: 600px;
+    min-height: 500px;
 
     &:after {
       bottom: -17%;

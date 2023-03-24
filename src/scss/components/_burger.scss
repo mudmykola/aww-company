@@ -168,6 +168,9 @@
     &-inner {
       display: flex;
       width: 550px;
+      &__social {
+        margin-right: 11px;
+      }
       &__btn {
         z-index: 9999;
         height: 22px;
