@@ -11,7 +11,7 @@ h2 {
   padding: 0;
 }
 
-button{
+button {
   cursor: pointer;
   border: none;
 }
@@ -46,6 +46,10 @@ button{
   line-height: 20px;
   color: $default;
   background: $c100;
+}
+.main,
+.header {
+  margin-right: -1%;
 }
 
 img {

@@ -124,6 +124,11 @@ button {
   background: #222939;
 }
 
+.main,
+.header {
+  margin-right: -1%;
+}
+
 img {
   height: auto;
   max-width: 100%;
