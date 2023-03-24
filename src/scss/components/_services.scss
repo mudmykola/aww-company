@@ -491,7 +491,7 @@
 
     &-tabs {
       width: 450px;
-
+      margin: 0;
       button {
         width: 100%;
       }
@@ -623,7 +623,7 @@
 
     &-tabs {
       width: 290px;
-
+      margin: 0;
       button {
         width: 100%;
       }
@@ -653,8 +653,8 @@
         }
 
         p {
-          font-size: 14px;
-          line-height: 18px;
+          font-size: 12px;
+          line-height: 16px;
         }
       }
 
@@ -691,6 +691,7 @@
         flex-direction: column;
 
         h2 {
+          width: 100%;
           font-size: 32px;
           line-height: 42px;
           text-align: center;
