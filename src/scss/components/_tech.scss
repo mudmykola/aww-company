@@ -29,10 +29,34 @@
 
 // 768
 @media (max-width: 768px) {
+  .tech {
+    border-radius: 35px;
+
+    &-inner {
+      h2 {
+        width: 730px;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+      }
+    }
+  }
 }
 
 // 600
 @media (max-width: 600px) {
+  .tech {
+    border-radius: 35px;
+
+    &-inner {
+      h2 {
+        width: 550px;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+      }
+    }
+  }
 }
 
 // 480

@@ -114,40 +114,25 @@
 
 // 768
 @media (max-width: 768px) {
-}
-
-// 600
-@media (max-width: 600px) {
-}
-
-// 480
-@media (max-width: 480px) {
-}
-
-// 320
-@media (max-width: 320px) {
   .contact {
     &-inner {
-      width: 290px;
+      width: 730px;
       flex-direction: column;
 
       &__adress {
-        width: 290px;
+        width: 730px;
       }
-
-
     }
 
     &-adress {
-
-
       ul {
         li {
           img {
             width: 8%;
           }
 
-          p, a {
+          p,
+          a {
             font-size: 15px;
             line-height: 18px;
             margin-left: 10px;
@@ -160,6 +145,143 @@
         }
       }
 
+      &__title {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    &-form {
+      margin-top: 30px;
+      width: 730px;
+    }
+  }
+}
+
+// 600
+@media (max-width: 600px) {
+  .contact {
+    &-inner {
+      width: 550px;
+      flex-direction: column;
+
+      &__adress {
+        width: 550px;
+      }
+    }
+
+    &-adress {
+      ul {
+        li {
+          img {
+            width: 8%;
+          }
+
+          p,
+          a {
+            font-size: 15px;
+            line-height: 18px;
+            margin-left: 10px;
+          }
+
+          h3 {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+      }
+
+      &__title {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    &-form {
+      margin-top: 30px;
+      width: 550px;
+    }
+  }
+}
+
+// 480
+@media (max-width: 480px) {
+  .contact {
+    &-inner {
+      width: 450px;
+      flex-direction: column;
+
+      &__adress {
+        width: 450px;
+      }
+    }
+
+    &-adress {
+      ul {
+        li {
+          img {
+            width: 8%;
+          }
+
+          p,
+          a {
+            font-size: 15px;
+            line-height: 18px;
+            margin-left: 10px;
+          }
+
+          h3 {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+      }
+
+      &__title {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    &-form {
+      margin-top: 30px;
+      width: 450px;
+    }
+  }
+}
+
+// 320
+@media (max-width: 320px) {
+  .contact {
+    &-inner {
+      width: 290px;
+      flex-direction: column;
+
+      &__adress {
+        width: 290px;
+      }
+    }
+
+    &-adress {
+      ul {
+        li {
+          img {
+            width: 8%;
+          }
+
+          p,
+          a {
+            font-size: 15px;
+            line-height: 18px;
+            margin-left: 10px;
+          }
+
+          h3 {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+      }
 
       &__title {
         font-size: 32px;
